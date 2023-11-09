@@ -10,6 +10,7 @@ public abstract class SortStudent <K extends Comparable<K>>{
     public List<Student> sortStudent(List<Student> students){
         List<Student> sortedList = new ArrayList<>();
 
+        //삽입 정렬
         for (Student student : students) {
             int index = 0;
             for (; index < sortedList.size(); index++) {
